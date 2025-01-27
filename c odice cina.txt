@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scambi Culturali - Accademia di Brera e Wuhan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #34495e;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2rem;
+        }
+        footer {
+            background: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        .formulario input, .formulario textarea {
+            display: block;
+            width: 100%;
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Scambi Culturali: Accademia di Brera & Istituto d'Arte di Wuhan</h1>
+    </header>
+    <nav>
+        <a href="#presentazione">Presentazione</a>
+        <a href="#formulario">Formulario</a>
+        <a href="#contatti">Contatti</a>
+    </nav>
+    <main>
+        <section id="presentazione">
+            <h2>Il Progetto</h2>
+            <p>Benvenuti al progetto di scambio culturale tra l'Accademia di Brera e l'Istituto d'Arte di Wuhan in Cina. Questo programma mira a favorire la collaborazione artistica e culturale tra studenti di due paesi, creando un dialogo unico attraverso l'arte.</p>
+        </section>
+
+        <section id="formulario">
+            <h2>Partecipa</h2>
+            <p>Se sei uno studente dell'Accademia di Brera interessato a partecipare, compila il seguente formulario:</p>
+            <form class="formulario" action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="motivo">Perché vuoi partecipare?</label>
+                <textarea id="motivo" name="motivo" rows="5" required></textarea>
+
+                <button type="submit">Invia</button>
+            </form>
+        </section>
+
+        <!-- Nuove sezioni aggiunte -->
+        <section id="galleria">
+            <h2>Galleria</h2>
+            <p>Esplora alcune delle foto e delle opere realizzate durante gli scambi culturali tra l'Accademia di Brera e l'Istituto d'Arte di Wuhan.</p>
+            <div class="gallery">
+                <img src="image1.jpg" alt="Immagine 1" style="width: 30%; margin-right: 10px;">
+                <img src="image2.jpg" alt="Immagine 2" style="width: 30%; margin-right: 10px;">
+                <img src="image3.jpg" alt="Immagine 3" style="width: 30%; margin-right: 10px;">
+            </div>
+        </section>
+
+        <section id="testimonianze">
+            <h2>Testimonianze</h2>
+            <p>Leggi le storie di alcuni dei partecipanti agli scambi culturali:</p>
+            <blockquote>
+                "L'esperienza mi ha cambiato la vita, ho imparato tantissimo dalla cultura cinese e ho avuto l'opportunità di presentare il mio lavoro in un contesto internazionale." — Maria, Accademia di Brera
+            </blockquote>
+            <blockquote>
+                "L'incontro tra le tradizioni artistiche italiane e cinesi è stato incredibile. Sono grato per questa opportunità di crescita professionale e personale." — Li Wei, Istituto d'Arte di Wuhan
+            </blockquote>
+        </section>
+
+        <section id="social-media">
+            <h2>Seguici sui social</h2>
+            <p>Rimani aggiornato sulle nostre attività attraverso i nostri canali social:</p>
+            <ul>
+                <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            </ul>
+        </section>
+
+        <section id="contatti">
+            <h2>Contatti</h2>
+            <p>Per maggiori informazioni, puoi contattarci via email all'indirizzo: <a href="mailto:info@scambi-culturali.it">info@scambi-culturali.it</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Progetto Scambi Culturali. Tutti i diritti riservati.</p>
+        <p>Questo sito è realizzato con amore e passione per l'arte e la cultura.</p>
+    </footer>
+</body>
+</html>
